@@ -1,0 +1,95 @@
+/*_____________Defaults_____________*/
+
+body {
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+}
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+/*_____________Main Banner_______________*/
+
+header.main-banner {
+    width: 100%;
+    margin: auto;
+    padding: 48px 0 48px 0;
+    background-image: linear-gradient(45deg, white,#eae0c8);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.3), 0 -1px 0 0 rgba(0,0,0,0.3);
+}
+
+header.main-banner h1 {
+    margin: 0;
+    font-family: 'Aileron', sans-serif;
+    font-size: 156px;
+}
+
+header.main-banner h5 {
+    margin: 0;
+    font-size: 21px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 4px;
+}
+
+/*______________All Contents_______________*/
+
+div.all-contents h3 {
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 24px;
+}
+
+/*______________Release Section______________*/
+
+
+
+/*____________Footer_____________*/
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 24px;
+}
